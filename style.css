@@ -140,6 +140,7 @@ body {
     font: 18px/24px arial, sans-serif;
     background-color: #161a1d;
     color: #a4161a;
+    height: 3000px;
 }
 
 .header {
@@ -174,6 +175,12 @@ body {
     color: aliceblue;
 }
 
+.Home {
+    width: auto;
+    height: 600px;
+    background-color: #161a1d;
+}
+
 .home-image img {
     height: 300px;
     position: relative;
@@ -188,9 +195,10 @@ body {
     font-weight: bolder;
     font-size: large;
     color: aliceblue;
-    position: fixed;
+    position: relative;
     left: 410px;
-    top: 250px;
+    top: -150px;
+    width: 800px;
 }
 
 .home-content h1 {
@@ -222,14 +230,15 @@ body {
 }
 
 .social-and-link a {
-    width: 50px;
+    width: 30px;
     height: auto;
     display: inline-block;
     position: relative;
     left: 410px;
-    top: 35px;
+    top: -120px;
     color: aliceblue;
     font-size: 26px;
+    margin-right: 15px;
 }
 
 .social-and-link a:hover {
@@ -243,10 +252,51 @@ body {
     padding: 15px;
     text-decoration: none;
     position: relative;
-    left: 565px;
-    top: 9px;
+    left: 545px;
+    top: -145px;
 }
 
 .button:hover {
-    color: azure;
+    color: aliceblue;
+}
+
+.About {
+    height: 600px;
+    width: auto;
+    background-color: aliceblue;
+}
+
+.about-image img {
+    border-radius: 50%;
+    height: 400px;
+    width: auto;
+    position: relative;
+    left: 900px;
+    top: 100px;
+    filter: brightness(90%);
+    box-shadow: 5px 5px 20px #161a1d88;
+}
+
+.about-content {
+    color: #161a1d;
+    text-align: left;
+    height: auto;
+    font-weight: bold;
+    width: 600px;
+    position: relative;
+    top: -200px;
+    left: 180px;
+}
+
+.about-content h1 {
+    color: #a20e13;
+    font-size: 42px;
+    font-weight: bolder;
+    position: relative;
+    top: -60px;
+}
+
+.about-content p {
+    font-size: 14px;
+    line-height: 15px;
 }
