@@ -136,13 +136,20 @@ table {
 
 /* /--Reset--/ */
 
+/* body start */
+
 body {
     font: 18px/24px arial, sans-serif;
     background-color: #161a1d;
     color: #a4161a;
-    height: 3044px;
+    height: 2700px;
     width: auto;
+    overflow-x: hidden;
 }
+
+/* body end */
+
+/* header start */
 
 .header {
     width: auto;
@@ -154,17 +161,17 @@ body {
 
 .header h3 {
     font-weight: bold;
-    font-size: 42px;
+    font-size: 38px;
     position: relative;
-    left: 40px;
+    left: 50px;
 }
 
 .header ul li {
     display: inline-block;
     margin-left: 40px;
     position: relative;
-    left: 800px;
-    font-size: 32px;
+    left: 500px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -180,17 +187,21 @@ body {
     color: aliceblue;
 }
 
+/* header end */
+
+/* home start */
+
 .Home {
     width: auto;
-    height: 830px;
+    height: 600px;
     background-color: #161a1d;
 }
 
 .home-image img {
-    height: 400px;
+    height: 280px;
     position: relative;
-    left: 150px;
-    top: 120px;
+    left: 100px;
+    top: 83px;
     border-radius: 50%;
     filter: brightness(80%);
     box-shadow: -4px 2px 10px #a4161b71;
@@ -208,15 +219,15 @@ body {
     font-size: large;
     color: aliceblue;
     position: relative;
-    left: 600px;
-    top: -180px;
-    width: 800px;
+    left: 430px;
+    top: -150px;
+    width: 600px;
 }
 
 .home-content h1 {
     width: 1092px;
-    font-size: 70px;
-    margin-bottom: 20px;
+    font-size: 50px;
+
 }
 
 .home-content h1 span {
@@ -225,10 +236,10 @@ body {
 
 .home-content h2 {
     width: 750px;
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 15px;
-    line-height: 30px;
-    word-spacing: 2px;
+    line-height: 24px;
+    word-spacing: 1.5px;
 }
 
 .home-content h2 span {
@@ -238,22 +249,22 @@ body {
 
 .home-content p {
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 15px;
     word-spacing: normal;
     width: 600px;
-    line-height: 16px;
+    line-height: 18px;
     margin-top: 15px;
 }
 
 .social-and-link a {
-    width: 30px;
+    width: 20px;
     height: auto;
     display: inline-block;
     position: relative;
-    left: 600px;
+    left: 430px;
     top: -120px;
     color: aliceblue;
-    font-size: 38px;
+    font-size: 28px;
     margin-right: 27px;
 }
 
@@ -269,13 +280,12 @@ body {
     color: #a4161a;
     border: 2px solid;
     border-radius: 5rem;
-    border-width: 3px;
-    padding: 15px 30px 15px 30px;
+    border-width: 1px;
+    padding: 10px 20px 10px 20px;
     text-decoration: none;
-    font-weight: bold;
     position: relative;
-    left: 780px;
-    top: -170px;
+    left: 580px;
+    top: -157px;
 }
 
 .button:hover {
@@ -287,19 +297,22 @@ body {
     transform: scale(1.1);
 }
 
+/* home end */
+
+/* about start */
+
 .About {
-    height: 907px;
+    height: 700px;
     width: auto;
     background-color: aliceblue;
-    position: relative;
 }
 
 .about-image img {
     border-radius: 50%;
-    height: 500px;
+    height: 400px;
     width: auto;
     position: relative;
-    left: 1100px;
+    left: 900px;
     top: 180px;
     filter: brightness(40%);
     box-shadow: 5px 5px 20px #161a1d88;
@@ -319,20 +332,20 @@ body {
     font-weight: bold;
     width: 600px;
     position: relative;
-    top: -250px;
-    left: 300px;
+    top: -150px;
+    left: 150px;
 }
 
 .about-content h1 {
     color: #a20e13;
-    font-size: 52px;
+    font-size: 40px;
     font-weight: bolder;
     position: relative;
     top: -60px;
 }
 
 .about-content p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
 }
 
@@ -341,13 +354,13 @@ body {
     color: #a4161a;
     border: 2px solid;
     border-radius: 5rem;
-    border-width: 3px;
-    padding: 15px 30px 15px 30px;
+    border-width: 2px;
+    padding: 8px 16px 8px 16px;
     text-decoration: none;
     font-weight: bold;
     position: relative;
-    left: 300px;
-    top: -220px;
+    left: 150px;
+    top: -140px;
 }
 
 .button-2:hover {
@@ -358,6 +371,10 @@ body {
     box-shadow: 0px 0px 20px #a20e13;
     transform: scale(1.1);
 }
+
+/* about end */
+
+/* services start */
 
 .services {
     width: auto;
@@ -370,9 +387,9 @@ body {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     position: relative;
-    top: 200px;
+    top: 100px;
 }
 
 .services h1 span {
@@ -385,13 +402,13 @@ body {
     justify-content: center;
     gap: 60px;
     position: relative;
-    top: 300px;
+    top: 200px;
 }
 
 .services-content .sc {
     background-color: #7a0e12;
-    width: 330px;
-    height: 310px;
+    width: 200px;
+    height: 200px;
     border-radius: 12%;
     font-size: 12px;
     text-align: center;
@@ -399,12 +416,12 @@ body {
 }
 
 .sc h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 30px;
     position: relative;
     position: relative;
-    top: -10px;
+    top: -30px;
     color: aliceblue;
     padding: 20px;
 }
@@ -412,13 +429,13 @@ body {
 .sc p {
     color: rgb(255, 255, 255);
     height: auto;
-    width: 350px;
+    width: 250px;
     text-align: center;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 20px;
     position: relative;
-    top: -10px;
-    left: -10px;
+    top: -40px;
+    left: -23px;
 }
 
 .button-3 {
@@ -426,13 +443,13 @@ body {
     color: aliceblue;
     border: 2px solid;
     border-radius: 5rem;
-    border-width: 3px;
-    padding: 15px 30px 15px 30px;
+    border-width: 2px;
+    padding: 8px 16px 8px 16px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     position: relative;
-    top: 10px;
+    top: -30px;
 }
 
 .button-3:hover {
@@ -450,33 +467,37 @@ body {
     transform: scale(1.1)
 }
 
+/* services end */
+
+/* footer start */
+
 .footer {
     width: auto;
-    height: 400px;
+    height: 200px;
     background-color: #161a1d;
+    position: relative;
+    top: 100px;
 }
 
 .footer-content {
     display: flex;
-    gap: 100px;
+    gap: 90px;
     justify-content: center;
 }
 
 .footer .c-1 {
     width: 500px;
     color: rgba(240, 248, 255, 0.387);
-    margin-bottom: 10px;
     font-size: 20px;
     font-family: sans-serif;
     text-align: left;
     font-weight: bold;
-    position: relative;
-    top: 200px;
+    margin-left: 50px;
 
 }
 
 .footer .c-1 h3 {
-    width: 500px;
+    width: 300px;
     color: rgba(240, 248, 255, 0.387);
     font-size: 20px;
     font-family: sans-serif;
@@ -492,8 +513,6 @@ body {
     font-family: sans-serif;
     text-align: left;
     font-weight: bold;
-    position: relative;
-    top: 200px;
 }
 
 .footer .c-2 p {
@@ -504,20 +523,15 @@ body {
     text-align: left;
     font-weight: lighter;
     line-height: 20px;
-
 }
 
 .footer .c-3 {
     width: 500px;
     color: rgba(240, 248, 255, 0.387);
-    margin-bottom: 10px;
     font-size: 20px;
     font-family: sans-serif;
     text-align: left;
     font-weight: bold;
-    position: relative;
-    top: 200px;
-
 }
 
 .footer .social a {
@@ -527,7 +541,8 @@ body {
     position: relative;
     color: rgba(240, 248, 255, 0.387);
     font-size: 38px;
-    top: 15px;
     margin-right: 30px;
 
 }
+
+/* footer end */
